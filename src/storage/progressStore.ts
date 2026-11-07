@@ -1,5 +1,5 @@
 import { emptyState, progressSchema, type Progress } from "../domain/progress";
-export const STORAGE_KEY = "atpl-study:v1";
+export const STORAGE_KEY = "atpl-study-preview:v1";
 export interface KeyValueStore {
   getItem(key: string): string | null;
   setItem(key: string, value: string): void;

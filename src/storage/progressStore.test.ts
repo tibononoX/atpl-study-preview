@@ -10,7 +10,7 @@ import { emptyState, ensureModule } from "../domain/progress";
 import { recordAttempt } from "../domain/reviewEngine";
 describe("v1 progress compatibility", () => {
   it("uses unchanged key and reads missing data as empty", () => {
-    expect(STORAGE_KEY).toBe("atpl-study:v1");
+    expect(STORAGE_KEY).toBe("atpl-study-preview:v1");
     expect(
       readProgress({ getItem: () => null, setItem: () => {} }).state,
     ).toEqual(emptyState());

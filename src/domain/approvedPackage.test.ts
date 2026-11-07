@@ -127,7 +127,7 @@ describe("approved English package integration", () => {
     expect(roundtrip).toEqual(state);
     expect(roundtrip.appId).toBe("atpl-study");
     expect(roundtrip.schemaVersion).toBe(1);
-    expect(STORAGE_KEY).toBe("atpl-study:v1");
+    expect(STORAGE_KEY).toBe("atpl-study-preview:v1");
     expect(Object.keys(roundtrip.modules["010"].itemState).sort()).toEqual(
       course.items.map((i) => i.id).sort(),
     );

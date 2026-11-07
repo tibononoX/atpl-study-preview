@@ -1,5 +1,5 @@
 import { parseCourse, type Course } from "../../domain/content";
-const CACHE_PREFIX = "atpl-study:content:v1:";
+export const CACHE_PREFIX = "atpl-study-preview:content:v1:";
 export type ContentResult = {
   course: Course;
   offline: boolean;
