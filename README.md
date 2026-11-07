@@ -86,7 +86,7 @@ When a correction changes meaning or answer key, the owner increments the item `
 
 ## Progress compatibility / scheduling
 
-- Existing key: **`atpl-study:v1`**, existing v1 JSON export structure retained (`appId`, `schemaVersion`, `modules`, `meta`). All module data is preserved. New revision fields are additive; old UI can still consume exported v1 files.
+- Preview key: **`atpl-study-preview:v1`** (content cache `atpl-study-preview:content:v1:`); production `atpl-study:v1` is never read or written by this preview. Explicit JSON import/export still works; existing v1 JSON export structure retained (`appId`, `schemaVersion`, `modules`, `meta`). All module data is preserved. New revision fields are additive; old UI can still consume exported v1 files.
 - Validates nested imports before replacing data; rejects other apps, future schema versions and malformed nested states. Confirmation required to import. Corrupted local data is not automatically overwritten; in-memory operation still works with a warning.
 - Due success: +1 day, then +3 days, then +7 days; fourth **due** success = retained, followed by +14-day maintenance. Early correct answers do not advance. Wrong scheduled answers reset to immediately due. Practice affects accuracy only, including on wrong answers.
 - Guided queue: due, then missed, unseen, other unretained, fallback remaining; no duplicates. Eight guided/practice items; up to ten due/mistake reviews.
