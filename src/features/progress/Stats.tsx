@@ -195,8 +195,11 @@ export function Stats({
                 {new Date(s.startedAt).toLocaleString("en-GB", {
                   timeZone: "Europe/Paris",
                 })}{" "}
-                (Paris) · {s.mode} · {s.results.filter((r) => r.correct).length}
-                /{s.results.length} answered · {formatTime(s.activeMs)}
+                (Paris) · {s.mode} · {s.results.length}/{s.itemIds.length}{" "}
+                answered
+                {" · "}
+                {s.results.filter((r) => r.correct).length} correct ·{" "}
+                {formatTime(s.activeMs)}
               </li>
             ))}
           </ul>
