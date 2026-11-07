@@ -1,0 +1,2711 @@
+{
+  "moduleId": "010",
+  "moduleCode": "010",
+  "moduleTitle": "Air Law",
+  "moduleTitleFr": "Air Law",
+  "source": {
+    "title": "AIR LAW — ATPL Ground Training Series, Book One",
+    "publisher": "CAE Oxford Aviation Academy (UK) Limited",
+    "edition": "EASA First Edition — Revised for NPA 29",
+    "copyrightYear": 2016,
+    "pdfCreation": "2018-07-22 (file metadata; not a regulatory update)",
+    "pages": 566,
+    "pageOffset": 6,
+    "pageNote": "Printed page + 6 = PDF file page for the cited course pages; file pages are 1-based."
+  },
+  "caveats": [
+    "Private-study course published in 2016; not current legislation or a substitute for the applicable Part-FCL syllabus.",
+    "Reviewed on 7 November 2026. Verification applies only to the specific proposition and jurisdiction cited for each active item, not to an entire Annex, regulation or question bank.",
+    "Excluded items retain their IDs for history but must not be graded or counted towards mastery. See the private audit for unresolved source checks.",
+    "Original study questions, not official ECQB questions, complete ATPL preparation or Air France Cadet selection tests.",
+    "For theoretical study only. Operational decisions require current rules, charts, AIP, aircraft and operator procedures."
+  ],
+  "chapters": [
+    {
+      "id": "icao",
+      "code": "1",
+      "title": "ICAO & Chicago Convention",
+      "titleEn": "ICAO & Chicago Convention",
+      "blurb": "Chicago Convention, Standards and Recommended Practices, ICAO governance."
+    },
+    {
+      "id": "docs",
+      "code": "2-3",
+      "title": "Airworthiness & registration",
+      "titleEn": "Airworthiness & registration",
+      "blurb": "Aircraft certificates and documents for international navigation."
+    },
+    {
+      "id": "fcl",
+      "code": "4",
+      "title": "Part-FCL theoretical exams",
+      "titleEn": "Part-FCL theoretical exams",
+      "blurb": "Part-FCL theoretical examination pass standards and time limits."
+    },
+    {
+      "id": "rules",
+      "code": "5",
+      "title": "Rules of the Air / SERA",
+      "titleEn": "Rules of the Air / SERA",
+      "blurb": "Rights of way, VMC minima, VFR and special VFR under EU SERA."
+    },
+    {
+      "id": "ifr",
+      "code": "6-9",
+      "title": "IFR procedures",
+      "titleEn": "IFR procedures",
+      "blurb": "Instrument approach definitions; historical holding and departure items remain excluded pending primary-source verification."
+    },
+    {
+      "id": "alt",
+      "code": "10",
+      "title": "Altimeter setting",
+      "titleEn": "Altimeter setting",
+      "blurb": "QNH, standard pressure, transition altitude and transition level."
+    },
+    {
+      "id": "ssr",
+      "code": "12",
+      "title": "SSR & ACAS",
+      "titleEn": "SSR & ACAS",
+      "blurb": "SSR contingency codes and ACAS resolution advisories."
+    },
+    {
+      "id": "airspace",
+      "code": "13",
+      "title": "Airspace classes",
+      "titleEn": "Airspace classes",
+      "blurb": "EU SERA airspace classes and radio mandatory zones."
+    },
+    {
+      "id": "ats",
+      "code": "14-17",
+      "title": "ATS, alerting & AIS",
+      "titleEn": "ATS, alerting & AIS",
+      "blurb": "Emergency phases and aeronautical information regulation and control."
+    },
+    {
+      "id": "sec",
+      "code": "23-25",
+      "title": "SAR, security, investigation",
+      "titleEn": "SAR, security, investigation",
+      "blurb": "Safety investigations, isolated parking and unlawful interference."
+    }
+  ],
+  "items": [
+    {
+      "id": "010-icao-01",
+      "chapterId": "icao",
+      "type": "mcq",
+      "prompt": "Which organisation is established by the Chicago Convention?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IATA"
+        },
+        {
+          "id": "b",
+          "text": "ICAO"
+        },
+        {
+          "id": "c",
+          "text": "EASA"
+        },
+        {
+          "id": "d",
+          "text": "EUROCONTROL"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "Article 43 establishes the International Civil Aviation Organization (ICAO), comprising an Assembly, a Council and other necessary bodies. The other organisations are not created by that article. The Convention was signed in 1944; ICAO came into being in 1947.",
+      "pdfPrinted": [
+        23,
+        28
+      ],
+      "pdfFile": [
+        29,
+        34
+      ],
+      "jurisdiction": "ICAO treaty",
+      "currentSource": {
+        "title": "Chicago Convention Article 43",
+        "url": "https://www.icao.int/sites/default/files/2024-12/7300_cons.pdf",
+        "date": "Chicago Convention, ICAO Doc 7300, ninth edition (2006); institutional proposition only",
+        "note": "p.23 para 1.3; p.28 para 1.33. Former p.24 was about law, not establishment. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "stable_icao",
+      "tags": [
+        "chicago",
+        "icao"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "Chicago Convention Article 43",
+          "url": "https://www.icao.int/sites/default/files/2024-12/7300_cons.pdf",
+          "locator": "Chicago Convention Article 43",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "Answer b retained; distinguish signing the treaty from ICAO beginning its existence in 1947. Other bodies are not interchangeable with ICAO."
+    },
+    {
+      "id": "010-icao-02",
+      "chapterId": "icao",
+      "type": "mcq",
+      "prompt": "How many Annexes to the Chicago Convention contain ICAO Standards and Recommended Practices, including Safety Management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "14"
+        },
+        {
+          "id": "c",
+          "text": "18"
+        },
+        {
+          "id": "d",
+          "text": "19"
+        }
+      ],
+      "correct": [
+        "d"
+      ],
+      "explanation": "There are 19 Annexes. Annex 19 — Safety Management was adopted on 25 February 2013 and became applicable on 14 November 2013. The 2016 course still says 18; that statement was already outdated in 2016. The existence of 19 Annexes does not establish which edition or amendment is operationally applicable.",
+      "pdfPrinted": [
+        27,
+        31
+      ],
+      "pdfFile": [
+        33,
+        37
+      ],
+      "jurisdiction": "ICAO publication structure",
+      "currentSource": {
+        "title": "ICAO Safety Management SARPs: Annex 19, Phase 1",
+        "url": "https://www.icao.int/safety-management/standards-and-recommended-practices-sarps",
+        "date": "ICAO 2026 catalogue; Annex19 initial applicability2013-11-14",
+        "note": "Official 2026 catalogue and live ICAO Annex19 page read. Count/title verification only."
+      },
+      "status": "stable_icao",
+      "caveat": null,
+      "tags": [
+        "annexes",
+        "annex19"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "ICAO Safety Management SARPs: Annex 19, Phase 1",
+          "url": "https://www.icao.int/safety-management/standards-and-recommended-practices-sarps",
+          "locator": "ICAO Safety Management SARPs: Annex 19, Phase 1",
+          "accessedAt": "2026-11-07"
+        },
+        {
+          "title": "ICAO Products and Services Catalogue 2026",
+          "url": "https://www.icao.int/sites/default/files/publications/catalogue/cat_2026_en.pdf",
+          "locator": "Annex listings, printed pp.11–18 (PDF file pp.23–30)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "Answer d retained. Official 2026 ICAO catalogue Annex listings run from 1 to19; live ICAO Annex 19 page confirms adoption/applicability in2013. The course count18 was already outdated."
+    },
+    {
+      "id": "010-icao-03",
+      "chapterId": "icao",
+      "type": "mcq",
+      "prompt": "Under Article 38 of the Chicago Convention, what must a contracting State do if it adopts a practice differing from an international Standard?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Take no action because Standards are merely optional"
+        },
+        {
+          "id": "b",
+          "text": "Immediately notify ICAO of the difference"
+        },
+        {
+          "id": "c",
+          "text": "Obtain permission from IATA instead"
+        },
+        {
+          "id": "d",
+          "text": "Apply only Recommended Practices"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "Article 38 requires immediate notification to ICAO of differences from international Standards or procedures. It also contains a separate 60-day notification provision for amendments. The AIP publication requirement is a separate AIS obligation, not wording found in Article 38 itself. Recommended Practices and Standards do not have identical legal status.",
+      "pdfPrinted": [
+        27,
+        28
+      ],
+      "pdfFile": [
+        33,
+        34
+      ],
+      "jurisdiction": "ICAO treaty",
+      "currentSource": {
+        "title": "Chicago Convention Article 38",
+        "url": "https://www.icao.int/sites/default/files/2024-12/7300_cons.pdf",
+        "date": "Chicago Convention Doc 7300 ninth edition (2006), Article 38",
+        "note": "p.27 para 1.24; p.28 paras 1.30–1.32 distinguish Standards and Recommended Practices. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "stable_icao",
+      "tags": [
+        "sarp",
+        "art38"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "Chicago Convention Article 38",
+          "url": "https://www.icao.int/sites/default/files/2024-12/7300_cons.pdf",
+          "locator": "Chicago Convention Article 38",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "Remove conflation of Article 38 notification with the separate AIP publication obligation. The unique answer remains b; recommended practice is not a substitute for compliance/difference notification."
+    },
+    {
+      "id": "010-icao-04",
+      "chapterId": "icao",
+      "type": "mcq",
+      "prompt": "Which ICAO body meets at least once every three years, with each contracting State entitled to one vote?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Council"
+        },
+        {
+          "id": "b",
+          "text": "Assembly"
+        },
+        {
+          "id": "c",
+          "text": "Air Navigation Commission"
+        },
+        {
+          "id": "d",
+          "text": "Secretariat"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "The Assembly has the membership and voting rights described in Article 48. The Council is a permanent body responsible to the Assembly (Article 50); the Commission and Secretariat do not replace the Assembly.",
+      "pdfPrinted": [
+        29
+      ],
+      "pdfFile": [
+        35
+      ],
+      "jurisdiction": "ICAO treaty",
+      "currentSource": {
+        "title": "Chicago Convention Articles 48(a)–(b) and 50(a)",
+        "url": "https://www.icao.int/sites/default/files/2024-12/7300_cons.pdf",
+        "date": "Chicago Convention Doc 7300 ninth edition (2006), Articles 48 and 50",
+        "note": "p.29 paras 1.35–1.36; do not reproduce its Council membership figure. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "stable_icao",
+      "tags": [
+        "assembly",
+        "council"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "Chicago Convention Articles 48(a)–(b) and 50(a)",
+          "url": "https://www.icao.int/sites/default/files/2024-12/7300_cons.pdf",
+          "locator": "Chicago Convention Articles 48(a)–(b) and 50(a)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "Correct b retained. Avoid relying on the course’s obsolete number of Council seats, which this question does not test."
+    },
+    {
+      "id": "010-icao-05",
+      "chapterId": "icao",
+      "type": "scenario",
+      "prompt": "An EU Member State publishes an AIP difference from an ICAO Standard covered by SERA. Which statement is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An AIP entry by itself overrides directly applicable EU law"
+        },
+        {
+          "id": "b",
+          "text": "Difference notification and AIP publication do not by themselves authorise a breach of applicable EU law"
+        },
+        {
+          "id": "c",
+          "text": "The 2016 training manual overrides SERA"
+        },
+        {
+          "id": "d",
+          "text": "Recommended Practices always override Standards"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "Article 38 provides a treaty mechanism for notifying differences, not a general exemption from EU law. SERA Article 3 requires compliance, subject to applicable flexibility safeguards; Article 8 requires compliant additional provisions. Former Article 5 was deleted with effect from 1 May 2025 and must not be cited as an operative current rule. Publishing an AIP entry alone cannot legalise an inconsistent national rule. The course statement that international law does not exist is wrong.",
+      "pdfPrinted": [
+        24,
+        26,
+        27,
+        28
+      ],
+      "pdfFile": [
+        30,
+        32,
+        33,
+        34
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "Regulation (EU) No 923/2012 Articles 3 and 8; Article 5 [deleted by2024/404]; Chicago Convention Article 38",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.24 para 1.5 contains erroneous denial of international law; p.26 para 1.20; p.27–28 differences/SARPs. Course is not authority for EU hierarchy. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "scenario",
+        "art38"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r2",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "SERA cover regulation",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "Articles3 and8; former Article5 [deleted by Regulation(EU)2024/404]",
+          "accessedAt": "2026-11-07"
+        },
+        {
+          "title": "Chicago Convention",
+          "url": "https://www.icao.int/sites/default/files/2024-12/7300_cons.pdf",
+          "locator": "Article38",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "Original answer overgeneralised State-rule priority and could imply every AIP difference is legally valid. Explicit EU scenario separates publication from lawful derogation and treaty notification."
+    },
+    {
+      "id": "010-icao-06",
+      "chapterId": "icao",
+      "type": "match",
+      "prompt": "Match each ICAO Annex to its subject.",
+      "pairs": [
+        {
+          "left": "Annex 2",
+          "right": "Rules of the Air"
+        },
+        {
+          "left": "Annex 7",
+          "right": "Aircraft Nationality and Registration Marks"
+        },
+        {
+          "left": "Annex 8",
+          "right": "Airworthiness of Aircraft"
+        },
+        {
+          "left": "Annex 13",
+          "right": "Aircraft Accident and Incident Investigation"
+        }
+      ],
+      "explanation": "Annex 2 concerns Rules of the Air; Annex 7 aircraft nationality and registration marks; Annex 8 airworthiness of aircraft; Annex 13 aircraft accident and incident investigation. Matching the titles does not verify every provision of a current Annex edition.",
+      "pdfPrinted": [
+        31
+      ],
+      "pdfFile": [
+        37
+      ],
+      "jurisdiction": "ICAO publication titles",
+      "currentSource": {
+        "title": "ICAO Products and Services Catalogue 2026 — Annex titles",
+        "url": "https://www.icao.int/sites/default/files/publications/catalogue/cat_2026_en.pdf",
+        "date": "2026",
+        "note": "Titles independently read; no claim of full Annex-text verification."
+      },
+      "status": "stable_icao",
+      "tags": [
+        "annexes",
+        "match"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "ICAO Products and Services Catalogue 2026",
+          "url": "https://www.icao.int/sites/default/files/publications/catalogue/cat_2026_en.pdf",
+          "locator": "Printed pp.11,13–14,16 (PDF file pp.23,25–26,28): Annexes 2,7,8,13",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "All four title matches independently read in the official ICAO 2026 catalogue. This verifies titles, not full current Annex provisions."
+    },
+    {
+      "id": "010-docs-01",
+      "chapterId": "docs",
+      "type": "mcq",
+      "prompt": "Which certificate does Chicago Convention Article 31 require for an aircraft engaged in international navigation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Certificate of Registration only"
+        },
+        {
+          "id": "b",
+          "text": "Certificate of Airworthiness"
+        },
+        {
+          "id": "c",
+          "text": "Noise certificate only"
+        },
+        {
+          "id": "d",
+          "text": "Minimum Equipment List only"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "Article 31 requires a Certificate of Airworthiness issued or rendered valid by the State of registration. Registration and noise documents serve other purposes; a Minimum Equipment List is not an airworthiness certificate. A certificate is not a guarantee of continuing serviceability for every flight.",
+      "pdfPrinted": [
+        55
+      ],
+      "pdfFile": [
+        61
+      ],
+      "jurisdiction": "ICAO treaty",
+      "currentSource": {
+        "title": "Chicago Convention Article 31",
+        "url": "https://www.icao.int/sites/default/files/2024-12/7300_cons.pdf",
+        "date": "Chicago Convention Doc 7300 ninth edition (2006), Article 31",
+        "note": "p.55 para 2.4: issue by State of Registration upon satisfactory evidence of compliance. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "stable_icao",
+      "tags": [
+        "coa"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r2",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "Chicago Convention Article 31",
+          "url": "https://www.icao.int/sites/default/files/2024-12/7300_cons.pdf",
+          "locator": "Chicago Convention Article 31",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "Narrow prompt to exact treaty requirement instead of claiming a certificate alone proves operational fitness at all times. Final quality pass: the narrowed Article31 international-navigation objective differs from the original recognition-of-airworthiness objective; conservatively require a new review despite the unchanged key."
+    },
+    {
+      "id": "010-docs-02",
+      "chapterId": "ssr",
+      "type": "scenario",
+      "prompt": "An SSR-equipped aircraft encounters an emergency. Which statement correctly describes SERA.13005(a)(1)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Always select 7700 regardless of any code previously directed by ATC"
+        },
+        {
+          "id": "b",
+          "text": "Select 7700 unless ATC has previously directed a specified code; even then the pilot may select 7700 whenever there is a specific reason to believe it is the best course of action"
+        },
+        {
+          "id": "c",
+          "text": "Select 7601 for every emergency"
+        },
+        {
+          "id": "d",
+          "text": "Wait for ATC permission before selecting 7700"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "The default is to select Code 7700 to indicate an emergency. The exception is where ATC has ALREADY directed the pilot to operate on a specified code. Even in that case the pilot may select 7700 whenever there is a specific reason to believe this is the best course of action. This provision does not require waiting for permission. Option a erases the assigned-code exception; c confuses a specific radio-failure procedure with emergency indication; d invents a permission requirement.",
+      "pdfPrinted": [
+        256
+      ],
+      "pdfFile": [
+        262
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "SERA.13005(a)(1), official EASA PDF p.130",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.256 para 12.5 lists emergency A/7700 and says stick to identified squawk; course omits explicit pilot discretion in current SERA. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "ssr",
+        "7600",
+        "7700",
+        "exception"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "caveat": null,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "SERA.13005(a)(1), official EASA PDF p.130",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "SERA.13005(a)(1), official EASA PDF p.130",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "High priority rewrite: teach default + already-assigned-code exception + pilot discretion together. Original conditional answer was substantially supported, but its explanation added “retain unless otherwise advised” as though exact SERA wording. No blanket rule to wait for ATC. Correct key b preserved."
+    },
+    {
+      "id": "010-docs-03",
+      "chapterId": "docs",
+      "type": "scenario",
+      "prompt": "Which pair is among the documents required on board by Chicago Convention Article 29 for aircraft of contracting States engaged in international navigation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only the pilot’s passport"
+        },
+        {
+          "id": "b",
+          "text": "Certificate of Registration and Certificate of Airworthiness"
+        },
+        {
+          "id": "c",
+          "text": "Only a company payment card"
+        },
+        {
+          "id": "d",
+          "text": "Only the filed flight plan"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "Article 29 lists both certificates, crew licences, the journey log book, a radio station licence if radio apparatus is fitted, and conditional passenger/cargo documents. The question asks for two listed documents, not an exhaustive modern operational document checklist. A passport, payment card or flight plan alone does not satisfy the list.",
+      "pdfPrinted": [
+        26,
+        27
+      ],
+      "pdfFile": [
+        32,
+        33
+      ],
+      "jurisdiction": "ICAO treaty",
+      "currentSource": {
+        "title": "Chicago Convention Article 29(a)–(g)",
+        "url": "https://www.icao.int/sites/default/files/2024-12/7300_cons.pdf",
+        "date": "Chicago Convention Doc 7300 ninth edition (2006), Article 29",
+        "note": "p.26 para 1.23(a), continued p.27 items 5–7. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "stable_icao",
+      "tags": [
+        "documents",
+        "scenario"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "Chicago Convention Article 29(a)–(g)",
+          "url": "https://www.icao.int/sites/default/files/2024-12/7300_cons.pdf",
+          "locator": "Chicago Convention Article 29(a)–(g)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "Correct b retained; scope expressly international navigation and non-exhaustive pair. Avoid presenting the course list as full Part-CAT/NCO requirements."
+    },
+    {
+      "id": "010-fcl-01",
+      "chapterId": "fcl",
+      "type": "mcq",
+      "prompt": "Under Part-FCL, what minimum mark is needed to pass a theoretical knowledge examination paper?",
+      "options": [
+        {
+          "id": "a",
+          "text": "70%"
+        },
+        {
+          "id": "b",
+          "text": "75%"
+        },
+        {
+          "id": "c",
+          "text": "80%"
+        },
+        {
+          "id": "d",
+          "text": "85%"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "FCL.025(b)(1) requires at least 75% of the marks allocated to that paper. No penalty marking applies. The 70%, 80% and 85% options are not the regulatory threshold.",
+      "pdfPrinted": [
+        72
+      ],
+      "pdfFile": [
+        78
+      ],
+      "jurisdiction": "EU Part-FCL",
+      "currentSource": {
+        "title": "FCL.025(b)(1), official EASA PDF p.93",
+        "url": "https://www.easa.europa.eu/en/downloads/115485/en",
+        "date": "EASA Aircrew October 2026, published 2026-10-16; FCL.025 text amended by Regulation (EU) 2025/134",
+        "note": "p.72 para 4.7 Pass Standards. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "fcl025"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "FCL.025(b)(1), official EASA PDF p.93",
+          "url": "https://www.easa.europa.eu/en/downloads/115485/en",
+          "locator": "FCL.025(b)(1), official EASA PDF p.93",
+          "accessedAt": "2026-11-07"
+        },
+        {
+          "title": "Commission Regulation (EU) No1178/2011 consolidated22February2026",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02011R1178-20260222",
+          "locator": "FCL.025(b)(1)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "Correct b retained and independently read in October 2026 text, not inferred from the 2016 course."
+    },
+    {
+      "id": "010-fcl-02",
+      "chapterId": "fcl",
+      "type": "mcq",
+      "prompt": "An applicant for the ATPL theoretical knowledge examination, a CPL or an IR has not passed a paper after four attempts, or has not passed all papers within six sittings or the applicable 18-month period. What is required?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Continue only the failed paper without limit"
+        },
+        {
+          "id": "b",
+          "text": "Retake the complete set after further training determined by the DTO or ATO"
+        },
+        {
+          "id": "c",
+          "text": "Receive an automatic extra attempt"
+        },
+        {
+          "id": "d",
+          "text": "Receive an automatic PPL instead"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "FCL.025(b)(3) requires the complete set to be retaken when any of those limits is reached without passing. Under (b)(5), further training must be completed before retaking; its extent and scope are determined by the DTO or ATO based on the applicant’s needs. This does not authorise a DTO to provide training beyond its approved or declared scope.",
+      "pdfPrinted": [
+        72
+      ],
+      "pdfFile": [
+        78
+      ],
+      "jurisdiction": "EU Part-FCL",
+      "currentSource": {
+        "title": "FCL.025(b)(2), (3) and (5), official EASA PDF p.94",
+        "url": "https://www.easa.europa.eu/en/downloads/115485/en",
+        "date": "EASA Aircrew October 2026; FCL.025 amended by Regulation (EU) 2025/134",
+        "note": "p.72 para 4.7; current clause also provides DTO/ATO wording. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "fcl025",
+        "scenario"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r2",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "FCL.025(b)(2), (3) and (5), official EASA PDF p.94",
+          "url": "https://www.easa.europa.eu/en/downloads/115485/en",
+          "locator": "FCL.025(b)(2), (3) and (5), official EASA PDF p.94",
+          "accessedAt": "2026-11-07"
+        },
+        {
+          "title": "Commission Regulation (EU) No1178/2011 consolidated22February2026",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02011R1178-20260222",
+          "locator": "FCL.025(b)(2), (3) and (5)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "Correct b retained. Add missing (b)(5) pinpoint; further training is BEFORE retaking, not after. Six sittings and four attempts are distinct limits."
+    },
+    {
+      "id": "010-fcl-03",
+      "chapterId": "fcl",
+      "type": "mcq",
+      "prompt": "Unless Part-FCL provides otherwise, within what period must an applicant pass all required theoretical knowledge examination papers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "12 months from starting ground school"
+        },
+        {
+          "id": "b",
+          "text": "18 months from the end of the calendar month of the first examination attempt"
+        },
+        {
+          "id": "c",
+          "text": "24 months without conditions"
+        },
+        {
+          "id": "d",
+          "text": "5 years"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "FCL.025(b)(2) specifies 18 months counted from the end of the calendar month in which the applicant first attempted an examination. The period does not start on the first teaching day or at the end of the first year.",
+      "pdfPrinted": [
+        72
+      ],
+      "pdfFile": [
+        78
+      ],
+      "jurisdiction": "EU Part-FCL",
+      "currentSource": {
+        "title": "FCL.025(b)(2), official EASA PDF p.94",
+        "url": "https://www.easa.europa.eu/en/downloads/115485/en",
+        "date": "EASA Aircrew October 2026; FCL.025 amended by Regulation (EU) 2025/134",
+        "note": "p.72 para 4.7. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "fcl025"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "FCL.025(b)(2), official EASA PDF p.94",
+          "url": "https://www.easa.europa.eu/en/downloads/115485/en",
+          "locator": "FCL.025(b)(2), official EASA PDF p.94",
+          "accessedAt": "2026-11-07"
+        },
+        {
+          "title": "Commission Regulation (EU) No1178/2011 consolidated22February2026",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02011R1178-20260222",
+          "locator": "FCL.025(b)(2)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "Correct b retained; preserve calendar-month anchor and exceptions qualifier."
+    },
+    {
+      "id": "010-fcl-04",
+      "chapterId": "fcl",
+      "type": "scenario",
+      "prompt": "Does this study app replace Air France Cadet selection or provide official ECQB examination questions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes, completing the quizzes guarantees selection"
+        },
+        {
+          "id": "b",
+          "text": "No: it is an independent Air Law study aid, not an official examination or selection system"
+        },
+        {
+          "id": "c",
+          "text": "Yes, if the score exceeds 90%"
+        },
+        {
+          "id": "d",
+          "text": "Yes, if progress is exported"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "This is a product-scope warning, not an aviation-law examination objective. No study-app score or export guarantees selection, licensing or an examination result.",
+      "pdfPrinted": [],
+      "pdfFile": [],
+      "jurisdiction": "Product scope (not aviation law)",
+      "currentSource": {
+        "title": "Product scope; no legal clause or course page",
+        "url": "",
+        "date": "Product scope, reviewed 2026-11-07",
+        "note": "No course page; deliberately not inventing one. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "excluded",
+      "tags": [
+        "cadets",
+        "meta"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "pageNote": "No course page: product scope only.",
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "unverified",
+      "citations": [],
+      "reviewResetNeeded": false,
+      "auditDecision": "excluded",
+      "auditReason": "Exclude from graded Air Law mastery: a product disclaimer should not inflate subject knowledge statistics. Retain ID for history; move the warning into About/onboarding."
+    },
+    {
+      "id": "010-rules-01",
+      "chapterId": "rules",
+      "type": "mcq",
+      "prompt": "Two powered aeroplanes are converging at approximately the same level. Neither is towing, landing, overtaking or impaired in manoeuvrability. Which must give way?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The aircraft with the other on its left"
+        },
+        {
+          "id": "b",
+          "text": "The aircraft with the other on its right"
+        },
+        {
+          "id": "c",
+          "text": "The faster aircraft must always climb"
+        },
+        {
+          "id": "d",
+          "text": "Only an ACAS-equipped aircraft must give way"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "SERA.3210(c)(2) requires the aircraft with the other on its right to give way. Under (c), it must avoid passing over, under or in front unless it passes well clear and accounts for wake turbulence. The convergence paragraph does not mandate a particular turn direction. The mandatory right turn for head-on encounters is a different rule. Speed and ACAS equipage do not decide this right of way.",
+      "pdfPrinted": [
+        108
+      ],
+      "pdfFile": [
+        114
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "SERA.3210(b), (c) and (c)(2), official EASA PDF p.48",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.108 para 5.15: correct right-side priority, but its mandatory-looking turn-right gloss is not SERA.3210(c)(2). Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "rowa"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "SERA.3210(b), (c) and (c)(2), official EASA PDF p.48",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "SERA.3210(b), (c) and (c)(2), official EASA PDF p.48",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "Remove suggestion that turning right is the legal convergence manoeuvre. Course p.108 over-prescribes turning right. Restrict to two powered aeroplanes and exclude towing/impaired and landing/overtaking contexts."
+    },
+    {
+      "id": "010-rules-02",
+      "chapterId": "rules",
+      "type": "order",
+      "prompt": "For convergence at approximately the same level, rank these categories from highest to lowest right of way. Exclude towing, impaired manoeuvrability, overtaking and landing situations.",
+      "options": [
+        {
+          "id": "balloons",
+          "text": "Balloons"
+        },
+        {
+          "id": "gliders",
+          "text": "Sailplanes (gliders)"
+        },
+        {
+          "id": "airships",
+          "text": "Airships"
+        },
+        {
+          "id": "aeroplanes",
+          "text": "Power-driven heavier-than-air aircraft (aeroplanes)"
+        }
+      ],
+      "correct": [
+        "balloons",
+        "gliders",
+        "airships",
+        "aeroplanes"
+      ],
+      "explanation": "SERA.3210(c)(2)(i)–(iii) produces the order balloons → sailplanes → airships → powered aeroplanes. Powered aircraft must also give way to aircraft seen towing aircraft or objects under (iv). Impaired manoeuvrability, overtaking and landing have separate provisions, so this is not a universal priority ladder.",
+      "pdfPrinted": [
+        108
+      ],
+      "pdfFile": [
+        114
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "SERA.3210(b), (c)(2)(i)–(iv), (c)(3)–(4)",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.108 para 5.15 and category list. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "rowa",
+        "order"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "SERA.3210(b), (c)(2)(i)–(iv), (c)(3)–(4)",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "SERA.3210(b), (c)(2)(i)–(iv), (c)(3)–(4)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "Order keys retained. Tighten exclusions; original broad explanation incorrectly compressed emergency landing and lower-aircraft rules into a universal ladder."
+    },
+    {
+      "id": "010-rules-03",
+      "chapterId": "rules",
+      "type": "mcq",
+      "prompt": "Under SERA.5001, what general flight visibility applies below 10,000 ft AMSL but above the higher of 3,000 ft AMSL or 1,000 ft above terrain? If the transition altitude is below 10,000 ft AMSL, use FL100 as the upper boundary.",
+      "options": [
+        {
+          "id": "a",
+          "text": "1.5 km"
+        },
+        {
+          "id": "b",
+          "text": "3 km"
+        },
+        {
+          "id": "c",
+          "text": "5 km"
+        },
+        {
+          "id": "d",
+          "text": "8 km"
+        }
+      ],
+      "correct": [
+        "c"
+      ],
+      "explanation": "Table S5-1 specifies 5 km flight visibility in this band, with cloud separation of 1,500 m horizontally and 1,000 ft vertically. Its footnote substitutes FL100 for 10,000 ft where the transition altitude is lower. The lower boundary is whichever is higher: 3,000 ft AMSL or 1,000 ft above terrain. This is not the low-level Class F/G reduced-visibility case and does not permit VFR in Class A.",
+      "pdfPrinted": [
+        104,
+        105
+      ],
+      "pdfFile": [
+        110,
+        111
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "SERA.5001 Table S5-1 and footnotes (*), (**), official EASA PDF p.62",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.104 diagrams; p.105 paras 5.6–5.7. Current table governs exact terrain boundary and FL100 footnote. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "vmc",
+        "sera"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r2",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "SERA.5001 Table S5-1 and footnotes (*), (**), official EASA PDF p.62",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "SERA.5001 Table S5-1 and footnotes (*), (**), official EASA PDF p.62",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "rewritten",
+      "auditReason": "Correct c retained. Simplify to one tested quantity; move boundary proviso into context. Explain cloud distances and Class A caveat rather than falsely equating VMC with VFR permission. Final pinpoint check: the current table and footnotes are on EASA PDF p.62; pp.60–61 concern flight plans and were an erroneous locator, now corrected."
+    },
+    {
+      "id": "010-rules-04",
+      "chapterId": "rules",
+      "type": "mcq",
+      "prompt": "Under SERA.5005, what is the general rule for VFR flight above FL195?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Unrestricted VFR is permitted"
+        },
+        {
+          "id": "b",
+          "text": "It is prohibited except under the specified airspace-reservation or authorised-traffic exceptions"
+        },
+        {
+          "id": "c",
+          "text": "It is unrestricted up to FL200"
+        },
+        {
+          "id": "d",
+          "text": "It is permitted only at night"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "SERA.5005(d)(2) prohibits VFR above FL195 except where an airspace reservation has been established, where practical, or where VFR traffic up to and including FL285 is authorised by the responsible ATS unit under Member State procedures published in the AIP. Paragraph (e) restricts authorisation above FL285 where 1,000 ft vertical separation is applied above FL290. FL200 in the course is not the current SERA threshold; night alone grants no exception.",
+      "pdfPrinted": [
+        124
+      ],
+      "pdfFile": [
+        130
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "SERA.5005(d)(2)(i)–(ii) and (e), official EASA PDF p.64",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.124 para 5.62 uses FL200; current SERA uses FL195. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "vfr",
+        "fl195"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "SERA.5005(d)(2)(i)–(ii) and (e), official EASA PDF p.64",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "SERA.5005(d)(2)(i)–(ii) and (e), official EASA PDF p.64",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "Correct b retained; replace vague etc. with exact exceptions. No general authority to fly VFR in Class A follows from this paragraph."
+    },
+    {
+      "id": "010-rules-05",
+      "chapterId": "rules",
+      "type": "scenario",
+      "prompt": "An aeroplane requests special VFR to take off, land or enter an aerodrome traffic circuit in a control zone. Which set describes the SERA conditions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Night flight is always allowed at the pilot’s discretion"
+        },
+        {
+          "id": "b",
+          "text": "ATC clearance; day unless the competent authority permits otherwise; clear of cloud, surface in sight, flight visibility at least 1,500 m, speed at most 140 kt IAS; reported ground visibility at least 1,500 m and ceiling at least 600 ft"
+        },
+        {
+          "id": "c",
+          "text": "A 200 ft ceiling is always sufficient"
+        },
+        {
+          "id": "d",
+          "text": "No ATC clearance is required"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "SERA.5010 requires an ATC clearance. For this aeroplane case, the pilot’s conditions are clear of cloud, surface in sight, flight visibility at least 1,500 m and no more than 140 kt IAS. Day is required unless the competent authority permits otherwise. ATC must not issue the specified take-off/landing/circuit clearance below 1,500 m reported ground visibility or 600 ft ceiling. The aerodrome ground-weather restriction is not a blanket ban on crossing the entire CTR; helicopter exceptions are outside this scenario.",
+      "pdfPrinted": [
+        128
+      ],
+      "pdfFile": [
+        134
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "SERA.5010 introductory text and (a)–(c); GM1 SERA.5010(c), official EASA PDF pp.66–67",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.128 para 5.78 is historical SVFR overview; the current aeroplane conditions are supplied by SERA, not this page alone. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "svfr",
+        "scenario"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "SERA.5010 introductory text and (a)–(c); GM1 SERA.5010(c), official EASA PDF pp.66–67",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "SERA.5010 introductory text and (a)–(c); GM1 SERA.5010(c), official EASA PDF pp.66–67",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "Correct b retained but narrow scenario to take-off/landing/circuit to avoid misapplying aerodrome ground-weather limits to transits. Explicit ATC clearance added."
+    },
+    {
+      "id": "010-rules-06",
+      "chapterId": "rules",
+      "type": "mcq",
+      "prompt": "A civil aircraft registered in an EU Member State operates as general air traffic over a non-EU State’s territory. How does SERA describe its territorial application?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SERA always overrides the overflown State’s published rules"
+        },
+        {
+          "id": "b",
+          "text": "SERA applies to that aircraft only to the extent it does not conflict with rules published by the State having jurisdiction over the territory overflown"
+        },
+        {
+          "id": "c",
+          "text": "Only the 2016 training manual applies"
+        },
+        {
+          "id": "d",
+          "text": "Company procedures alone replace the applicable rules"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "SERA Article 1(2)(b) and SERA.2001 preserve the overflown State’s published rules in a conflict. This does not mean the aircraft’s other applicable obligations disappear. For flight over the high seas, SERA.1001(a) specifies that Annex 2 rules apply without exception, without prejudice to the State-aircraft provisions it identifies. National AIP and applicable authorisations must be checked for actual operations.",
+      "pdfPrinted": [
+        103
+      ],
+      "pdfFile": [
+        109
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "Article 1(2)(b); SERA.2001 and SERA.1001(a)",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.103 para 5.2: UK/national examples are historical; use current EU scope for this item. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "applicability"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r2",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "Article 1(2)(b); SERA.2001 and SERA.1001(a)",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "Article 1(2)(b); SERA.2001 and SERA.1001(a)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "Replace overbroad foreign-registration formulation with explicit Member-State registration and civil scope matching SERA. Does not universalise EU law or treat AIP as superior to EU law within the EU. Final quality pass narrows the overflight scenario to a non-EU State to avoid implying that an EU national AIP overrides directly applicable EU law."
+    },
+    {
+      "id": "010-ifr-01",
+      "chapterId": "ifr",
+      "type": "mcq",
+      "prompt": "Historical course review only: what still-air outbound times does the 2016 course give for a timed holding pattern?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 minute at or below 14,000 ft; 1½ minutes above"
+        },
+        {
+          "id": "b",
+          "text": "2 minutes at every level"
+        },
+        {
+          "id": "c",
+          "text": "30 seconds at or below 10,000 ft"
+        },
+        {
+          "id": "d",
+          "text": "A radial alone always determines the leg"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "The 2016 course gives those times, with wind correction and published DME/distance limits taking precedence where applicable. This is not verified here against the current applicable Doc 8168 edition or local AIP and must not be graded as current procedure.",
+      "pdfPrinted": [
+        217,
+        218
+      ],
+      "pdfFile": [
+        223,
+        224
+      ],
+      "jurisdiction": "Historical 2016 course / ICAO PANS-OPS not current-verified",
+      "currentSource": {
+        "title": "ICAO Doc 8168 holding provisions — current edition/paragraph NOT verified",
+        "url": "",
+        "date": "CAE Oxford 2016 only; current primary law/procedure unverified",
+        "note": "Course p.217 figure and p.218 para 9.4 support historical answer a. Current Doc 8168 operative holding provisions not obtained; exclude rather than label stable/current. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "excluded",
+      "tags": [
+        "holding"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "unverified",
+      "citations": [],
+      "reviewResetNeeded": false,
+      "auditDecision": "excluded",
+      "auditReason": "Course p.217 figure and p.218 para 9.4 support historical answer a. Current Doc 8168 operative holding provisions not obtained; exclude rather than label stable/current."
+    },
+    {
+      "id": "010-ifr-02",
+      "chapterId": "ifr",
+      "type": "mcq",
+      "prompt": "Historical course review only: which turn direction is described as a standard holding pattern?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Left"
+        },
+        {
+          "id": "b",
+          "text": "Right"
+        },
+        {
+          "id": "c",
+          "text": "Alternating each circuit"
+        },
+        {
+          "id": "d",
+          "text": "Always 45 degrees of bank"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "The 2016 course describes right turns, with left turns when published. The current applicable PANS-OPS provision has not been independently read in this review; retain the record only as an excluded historical item.",
+      "pdfPrinted": [
+        217
+      ],
+      "pdfFile": [
+        223
+      ],
+      "jurisdiction": "Historical 2016 course / ICAO PANS-OPS not current-verified",
+      "currentSource": {
+        "title": "ICAO Doc 8168 holding provisions — current edition/paragraph NOT verified",
+        "url": "",
+        "date": "CAE Oxford 2016 only; current primary law/procedure unverified",
+        "note": "Course p.217 para 9.3 supports right turns. Former p.215 is a chapter contents page, not evidence. Current primary verification incomplete; exclude. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "excluded",
+      "tags": [
+        "holding"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "unverified",
+      "citations": [],
+      "reviewResetNeeded": false,
+      "auditDecision": "excluded",
+      "auditReason": "Course p.217 para 9.3 supports right turns. Former p.215 is a chapter contents page, not evidence. Current primary verification incomplete; exclude."
+    },
+    {
+      "id": "010-ifr-03",
+      "chapterId": "ifr",
+      "type": "mcq",
+      "prompt": "Historical course review only: what default procedure design gradient does the 2016 course give for an instrument departure unless otherwise stated?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1.2%"
+        },
+        {
+          "id": "b",
+          "text": "2.5%"
+        },
+        {
+          "id": "c",
+          "text": "3.3%"
+        },
+        {
+          "id": "d",
+          "text": "5.0%"
+        }
+      ],
+      "correct": [
+        "c"
+      ],
+      "explanation": "The course gives a procedure design gradient of 3.3%, describing a 2.5% obstacle-identification surface plus 0.8% increasing obstacle clearance. This is an all-engines procedure-design assumption, not a universal engine-out performance requirement. Current Doc 8168 design provisions and amendments were not verified here, so this item is excluded.",
+      "pdfPrinted": [
+        162
+      ],
+      "pdfFile": [
+        168
+      ],
+      "jurisdiction": "Historical 2016 course / ICAO PANS-OPS not current-verified",
+      "currentSource": {
+        "title": "ICAO Doc 8168 instrument departure design — current edition/paragraph NOT verified",
+        "url": "",
+        "date": "CAE Oxford 2016 only; current primary law/procedure unverified",
+        "note": "Historical answer c is supported by p.162 paras 6.6–6.7. Operational applicability cannot be certified from course alone; do not present 3.3% as engine-out certification performance or universal SID gradient. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "excluded",
+      "tags": [
+        "sid",
+        "pdg"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "unverified",
+      "citations": [],
+      "reviewResetNeeded": false,
+      "auditDecision": "excluded",
+      "auditReason": "Historical answer c is supported by p.162 paras 6.6–6.7. Operational applicability cannot be certified from course alone; do not present 3.3% as engine-out certification performance or universal SID gradient."
+    },
+    {
+      "id": "010-ifr-04",
+      "chapterId": "ifr",
+      "type": "mcq",
+      "prompt": "Under current SERA definitions, which statement correctly describes a precision approach (PA) procedure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It uses lateral guidance only and is necessarily non-precision"
+        },
+        {
+          "id": "b",
+          "text": "It is based on ILS, MLS, GLS or SBAS Cat I and designed for 3D instrument approach operations Type A or B"
+        },
+        {
+          "id": "c",
+          "text": "Any approach with vertical guidance is automatically a PA"
+        },
+        {
+          "id": "d",
+          "text": "Only a ground NDB is needed to provide a PA"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "Article 2(90)(c) defines PA using those navigation systems and Type A or B 3D operations. Article 2(90)(b) defines APV as a PBN procedure designed for 3D Type A operations. Therefore vertical guidance alone does not make an approach precision. Article 2(89a) distinguishes 2D (lateral only) from 3D (lateral and vertical) operations. The 2016 examples do not define the whole current category.",
+      "pdfPrinted": [
+        176
+      ],
+      "pdfFile": [
+        182
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "Regulation (EU) No 923/2012 Article 2(89a), (90)(a)–(c), official EASA PDF p.27",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.176 paras 7.5–7.6 describes older precision examples including PAR; current SERA definition supplies the replacement. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "approach"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "Regulation (EU) No 923/2012 Article 2(89a), (90)(a)–(c), official EASA PDF p.27",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "Regulation (EU) No 923/2012 Article 2(89a), (90)(a)–(c), official EASA PDF p.27",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "Rewrite historical definition as current PA/APV distinction. Existing correction said Article 2(90) classifies operations rather than procedures. Preserve key b but substantially change tested knowledge; reset needed."
+    },
+    {
+      "id": "010-alt-01",
+      "chapterId": "alt",
+      "type": "mcq",
+      "prompt": "With the correct QNH set, what vertical reference does an altimeter indicate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Height above the aerodrome"
+        },
+        {
+          "id": "b",
+          "text": "Indicated altitude above mean sea level"
+        },
+        {
+          "id": "c",
+          "text": "A flight level regardless of pressure setting"
+        },
+        {
+          "id": "d",
+          "text": "Raw static pressure without an altitude reference"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "QNH references indicated altitude to mean sea level. It does not guarantee true altitude in non-standard temperature or eliminate instrument and pressure-setting errors. QFE references height above its aerodrome or threshold datum; standard pressure is used for flight levels. SERA.8015(eb) distinguishes altitude, flight level and QFE height reporting.",
+      "pdfPrinted": [
+        229
+      ],
+      "pdfFile": [
+        235
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "Article 2(39), 2(78), and SERA.8015(eb)(1), (3)–(5)",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.229 paras 10.7–10.8 gives QNH aerodrome elevation and QFE zero on touchdown; not a guarantee of true altitude. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "qnh"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "Article 2(39), 2(78), and SERA.8015(eb)(1), (3)–(5)",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "Article 2(39), 2(78), and SERA.8015(eb)(1), (3)–(5)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "Answer b retained; avoid false true-altitude guarantee. Course QNH/QFE explanation corroborated by current SERA altitude and clearance reference provisions."
+    },
+    {
+      "id": "010-alt-02",
+      "chapterId": "alt",
+      "type": "mcq",
+      "prompt": "What is the principal purpose of the standard pressure setting, commonly rounded to 1013 hPa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To replace QFE permanently everywhere"
+        },
+        {
+          "id": "b",
+          "text": "To express vertical position as flight levels using a common pressure datum"
+        },
+        {
+          "id": "c",
+          "text": "To measure outside-air temperature"
+        },
+        {
+          "id": "d",
+          "text": "To show true altitude above mean sea level in every temperature"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "Flight levels use a common standard pressure datum (SERA Article 2(78): 1013.2 hPa). At or below the transition altitude position is normally expressed as altitude; at or above the transition level as flight level. In the transition layer it is flight level in climb and altitude in descent. A standard-pressure indication is not guaranteed true altitude; it does not measure temperature or abolish QFE.",
+      "pdfPrinted": [
+        229,
+        231
+      ],
+      "pdfFile": [
+        235,
+        237
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "Article 2(78); SERA.3110; SERA.8015(eb)(1)",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.229 para 10.4 and p.231 paras 10.10–10.12. Course statement above TA always FL needs descent nuance. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "sps",
+        "transition"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "Article 2(78); SERA.3110; SERA.8015(eb)(1)",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "Article 2(78); SERA.3110; SERA.8015(eb)(1)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "Correct b retained but remove overbroad “above transition altitude” statement for descending transition layer and untested QNE terminology. Distractor d now addresses a meaningful altimetry error."
+    },
+    {
+      "id": "010-alt-03",
+      "chapterId": "alt",
+      "type": "scenario",
+      "prompt": "During a normal descent through the transition level for an approach using QNH, which vertical reference is used in the transition layer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Altitudes on QNH"
+        },
+        {
+          "id": "b",
+          "text": "Flight levels until touchdown"
+        },
+        {
+          "id": "c",
+          "text": "A fixed FL350 reference"
+        },
+        {
+          "id": "d",
+          "text": "Standard pressure until reaching the parking stand"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "SERA.8015(eb)(1) requires vertical position in the transition layer to be expressed as altitudes when descending, but flight levels when climbing. The flight crew must receive the transition level in time before reaching it, and QNH accompanies the first clearance to an altitude below it unless already provided. This is not a universal claim that every approach uses QNH: local QFE arrangements are separately recognised.",
+      "pdfPrinted": [
+        231
+      ],
+      "pdfFile": [
+        237
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "SERA.8015(eb)(1)–(5), official EASA PDF p.92",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.231 para 10.10 describes descent SPS to QNH at transition level; current rule is more precise about reporting and QNH clearance. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "transition",
+        "scenario"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "SERA.8015(eb)(1)–(5), official EASA PDF p.92",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "SERA.8015(eb)(1)–(5), official EASA PDF p.92",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "Replace informal exact knob-change timing claim with the current legal vertical-reference requirement. Key a retained; changed objective merits review reset."
+    },
+    {
+      "id": "010-ssr-01",
+      "chapterId": "ssr",
+      "type": "mcq",
+      "prompt": "Which SSR Mode A code indicates a general state of emergency under SERA.13005(a)(1)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7500"
+        },
+        {
+          "id": "b",
+          "text": "7600"
+        },
+        {
+          "id": "c",
+          "text": "7700"
+        },
+        {
+          "id": "d",
+          "text": "7000"
+        }
+      ],
+      "correct": [
+        "c"
+      ],
+      "explanation": "7700 indicates an emergency. This question tests the meaning of the code, not a command to change an assigned code in every emergency. SERA.13005(a)(1) contains the previously-directed-code exception and preserves pilot discretion to select 7700. Code 7600 denotes radio-communication failure; 7500 unlawful interference; 7000 is a conspicuity code subject to the rule and competent-authority provisions.",
+      "pdfPrinted": [
+        256
+      ],
+      "pdfFile": [
+        262
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "SERA.13005(a)(1)–(3), (b)(3)",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.256 para 12.5 special-code table; its note must be read with SERA discretion. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "ssr"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r2",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "SERA.13005(a)(1)–(3), (b)(3)",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "SERA.13005(a)(1)–(3), (b)(3)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "Key c retained. Remove unqualified “universal codes” claim and explicitly distinguish meaning from mandatory switching. Assigned-code exception not hidden."
+    },
+    {
+      "id": "010-ssr-02",
+      "chapterId": "ssr",
+      "type": "mcq",
+      "prompt": "A VFR flight has a radio-communication failure and attempts to re-establish communication under SERA.14083(a) have failed. Which SSR Mode A code is specified?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7500"
+        },
+        {
+          "id": "b",
+          "text": "7600"
+        },
+        {
+          "id": "c",
+          "text": "7700"
+        },
+        {
+          "id": "d",
+          "text": "7601"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "SERA.14083(c)(2) specifies Mode A Code 7600 and/or the ADS-B loss-of-communications indication. For this VFR flight, (c)(3) requires continued VMC, landing at the nearest suitable aerodrome and reporting arrival expeditiously to ATS. The different 7601 case in (c)(6) concerns an IFR flight that encounters VMC and whose pilot-in-command decides to continue in VMC. The 7700 assigned-code exception must not be imported into this rule.",
+      "pdfPrinted": [
+        256
+      ],
+      "pdfFile": [
+        262
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "SERA.13005(a)(2); SERA.14083(a), (c)(2)–(3), (c)(6), official EASA PDF pp.198–199",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.256 table gives only 7600; 7601 and current procedures originate in later SERA text, not 2016 course. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "ssr"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "SERA.13005(a)(2); SERA.14083(a), (c)(2)–(3), (c)(6), official EASA PDF pp.198–199",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "SERA.13005(a)(2); SERA.14083(a), (c)(2)–(3), (c)(6), official EASA PDF pp.198–199",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "Replace ambiguous general failure prompt and unsupported “no contrary ATC instruction” qualifier with VFR scenario. Add 7601 as real distractor and explain exact IFR-in-VMC exception. Correct key b unchanged; meaning/context changed."
+    },
+    {
+      "id": "010-ssr-03",
+      "chapterId": "ssr",
+      "type": "scenario",
+      "prompt": "An ACAS resolution advisory (RA) conflicts with an ATC manoeuvring instruction. What does SERA require?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Always follow ATC and ignore the RA"
+        },
+        {
+          "id": "b",
+          "text": "Respond immediately to the RA unless doing so would jeopardise aircraft safety; notify ATC as soon as possible as workload permits, promptly return to the instruction or clearance when the conflict is resolved, and notify ATC when returning"
+        },
+        {
+          "id": "c",
+          "text": "Manoeuvre aggressively on a traffic advisory alone"
+        },
+        {
+          "id": "d",
+          "text": "Switch off the transponder to cancel the conflict"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "SERA.11014(b) requires following the RA even if it conflicts with an ATC instruction, unless doing so would jeopardise aircraft safety. Do not manoeuvre in the opposite sense; follow modified RAs and limit deviation to what is necessary. Notify ATC as soon as possible as workload permits for a deviation, promptly return to the ATC instruction or clearance when clear of conflict and notify ATC when returning. Do not infer from visual traffic acquisition alone that an RA may be ignored.",
+      "pdfPrinted": [
+        257
+      ],
+      "pdfFile": [
+        263
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "SERA.11014(b)(1)–(8), official EASA PDF p.116",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.257 paras 12.11–12.13 corroborate priority and notification; para 12.14 is a dangerous overbroad visual-disregard instruction rejected in replacement. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "acas",
+        "scenario"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r2",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "SERA.11014(b)(1)–(8), official EASA PDF p.116",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "SERA.11014(b)(1)–(8), official EASA PDF p.116",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "Correct b retained but replace vague plan/clearance return with exact clearance compliance and notification. Critical course error p.257 para 12.14 permits ignoring RA on visual assessment alone: do NOT teach that; SERA safety exception is the rule."
+    },
+    {
+      "id": "010-air-01",
+      "chapterId": "airspace",
+      "type": "mcq",
+      "prompt": "Under the SERA Class A classification, which flights are permitted?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IFR only"
+        },
+        {
+          "id": "b",
+          "text": "VFR only"
+        },
+        {
+          "id": "c",
+          "text": "Unrestricted IFR and VFR without clearance"
+        },
+        {
+          "id": "d",
+          "text": "Special VFR only"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "SERA.6001(a)(1) permits IFR flights only in Class A. All flights receive ATC service, are separated from each other, require continuous air-ground voice communication and are subject to ATC clearance. VMC conditions do not create a general right to fly VFR in Class A.",
+      "pdfPrinted": [
+        268,
+        269
+      ],
+      "pdfFile": [
+        274,
+        275
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "SERA.6001(a)(1)",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.268 paras 13.11–13.12; p.269 summary is an image table rather than searchable text. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "classA"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "SERA.6001(a)(1)",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "SERA.6001(a)(1)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "Correct a retained; standard classification question, not assertion that no legal exemption could ever exist."
+    },
+    {
+      "id": "010-air-02",
+      "chapterId": "airspace",
+      "type": "mcq",
+      "prompt": "Under SERA Class C rules, which statement is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "VFR flights never need ATC clearance"
+        },
+        {
+          "id": "b",
+          "text": "All flights require ATC clearance; IFR is separated from IFR and VFR; VFR is separated from IFR and receives information about other VFR traffic"
+        },
+        {
+          "id": "c",
+          "text": "VFR receives ATC service only after an IFR conflict arises"
+        },
+        {
+          "id": "d",
+          "text": "No service is provided to VFR flights"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "SERA.6001(a)(3) provides ATC service to all flights in Class C. VFR flights receive separation from IFR and traffic information about other VFR, with traffic avoidance advice on request. They are not normally separated from one another by the Class C service. All flights require continuous air-ground voice communication and ATC clearance. The course’s p.268 claim that VFR receives ATC only when conflicting with IFR is wrong.",
+      "pdfPrinted": [
+        268,
+        269
+      ],
+      "pdfFile": [
+        274,
+        275
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "SERA.6001(a)(3); compare (a)(4)",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.268 para 13.12 contains the incorrect C/D statement; source table p.269 is an image. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "classC"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "SERA.6001(a)(3); compare (a)(4)",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "SERA.6001(a)(3); compare (a)(4)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "Key b retained. Distinguish separation from information and add advice on request. Class D also requires clearance, but does not provide the same IFR/VFR separation."
+    },
+    {
+      "id": "010-air-03",
+      "chapterId": "airspace",
+      "type": "mcq",
+      "prompt": "To which flights does SERA.6001 impose the Class C 250 kt IAS limit below 10,000 ft AMSL?",
+      "options": [
+        {
+          "id": "a",
+          "text": "VFR flights, subject to the stated competent-authority exception"
+        },
+        {
+          "id": "b",
+          "text": "No flights"
+        },
+        {
+          "id": "c",
+          "text": "Only balloons"
+        },
+        {
+          "id": "d",
+          "text": "Only flights above FL195"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "SERA.6001(a)(3) applies the Class C 250 kt IAS limit below 10,000 ft AMSL to VFR flights. An exception requires competent-authority approval for aircraft types that cannot maintain the speed for technical or safety reasons. This paragraph does not impose that Class C limit on IFR flights, but other instructions or rules may still limit their speed.",
+      "pdfPrinted": [
+        268
+      ],
+      "pdfFile": [
+        274
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "SERA.6001(a)(3)",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.268 para 13.16 supports VFR in C; p.269 unnecessary to prove speed rule. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "speed"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "SERA.6001(a)(3)",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "SERA.6001(a)(3)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "Key a retained. Explicitly identify authority approval and technical/safety inability; no broad claim that IFR has no speed restrictions."
+    },
+    {
+      "id": "010-air-04",
+      "chapterId": "airspace",
+      "type": "scenario",
+      "prompt": "What does RMZ mean under SERA?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Radar Minimum Zone with no radio requirement"
+        },
+        {
+          "id": "b",
+          "text": "Radio Mandatory Zone"
+        },
+        {
+          "id": "c",
+          "text": "Runway Movement Zero"
+        },
+        {
+          "id": "d",
+          "text": "A zone in which radio use is prohibited"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "An RMZ is airspace of defined dimensions in which radio carriage and operation are mandatory. Under SERA.6005(a), VFR in designated Class E/F/G and IFR in designated Class F/G must maintain continuous air-ground voice communication watch and establish two-way communication as necessary, unless complying with the ANSP’s alternative provisions. An initial call must be made before entry. An RMZ is not itself a transponder mandatory zone or an ATC-clearance classification.",
+      "pdfPrinted": [],
+      "pdfFile": [],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "Article 2(106); SERA.6005(a)(1)–(2)",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "No RMZ passage on formerly cited p.268 (file274); that page discusses general Class E–G radio history only. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "rmz",
+        "scenario"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "Article 2(106); SERA.6005(a)(1)–(2)",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "Article 2(106); SERA.6005(a)(1)–(2)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "Correct b retained; remove p.268 as direct source because it does not mention RMZ. Include before-entry call and exact two-way as-necessary qualification. Current-law addition has no verified course page.",
+      "pageNote": "Current-law addition; no direct supporting page identified in the supplied course."
+    },
+    {
+      "id": "010-ats-01",
+      "chapterId": "ats",
+      "type": "mcq",
+      "prompt": "Under ATS.TR.405(a)(1), which statement correctly gives uncertainty-phase (INCERFA) criteria?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Every missed communication creates INCERFA after 5 minutes"
+        },
+        {
+          "id": "b",
+          "text": "INCERFA is the phase for failing to land 5 minutes after a landing clearance"
+        },
+        {
+          "id": "c",
+          "text": "No communication within 30 minutes of when one should have been received or of the first unsuccessful contact attempt, whichever is earlier; OR no arrival within 30 minutes of the ETA last notified to or estimated by ATS, whichever is later — unless no doubt exists about the safety of the aircraft and occupants"
+        },
+        {
+          "id": "d",
+          "text": "Only the pilot may initiate INCERFA"
+        }
+      ],
+      "correct": [
+        "c"
+      ],
+      "explanation": "ATS.TR.405(a)(1) uses the EARLIER reference for missed communications and the LATER reference for arrival. The no-doubt safety exception applies. ATS must immediately notify the rescue coordination centre when the aircraft is considered in the relevant emergency phase, subject to ATS.TR.420(a). The separate ALERFA landing criterion is failure to land within 5 minutes of the ESTIMATED TIME OF LANDING after being cleared to land, with communication not re-established — not simply 5 minutes after clearance issue. The ALERFA triggers in (a)(2)(i)–(iv), including this landing case, do not apply when evidence exists that would allay apprehension as to the safety of the aircraft and occupants.",
+      "pdfPrinted": [
+        288
+      ],
+      "pdfFile": [
+        294
+      ],
+      "jurisdiction": "EU ATM/ANS Part-ATS",
+      "currentSource": {
+        "title": "Annex IV ATS.TR.405(a)(1), (a)(2)(ii) and final sentence of(a)(2); ATS.TR.420(a)",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02017R0373-20261004",
+        "date": "Regulation (EU) 2017/373 consolidated 2026-10-04, exact operative clauses read live",
+        "note": "p.288 para 14.40 is abbreviated and wrongly describes 5 minutes after issue of landing clearance; do not reuse. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "incerfa"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r2",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "Annex IV ATS.TR.405(a)(1), (a)(2)(ii); ATS.TR.420(a)",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02017R0373-20261004",
+          "locator": "Annex IV ATS.TR.405(a)(1), (a)(2)(ii) and final sentence of(a)(2); ATS.TR.420(a)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "Answer c retained. New current consolidation is 2026-10-04, not May2025. Crucial correction to explanation: ALERFA timer starts at estimated landing time, not clearance issue; include loss of communications condition. Final quality pass explicitly adds the safety-evidence exception applicable to the ALERFA landing case; no compulsory timer or phase escalation is implied."
+    },
+    {
+      "id": "010-ats-02",
+      "chapterId": "ats",
+      "type": "order",
+      "prompt": "Rank these ATS emergency phases from lower to higher severity. This is a severity ranking, not a compulsory sequence of delays.",
+      "options": [
+        {
+          "id": "u",
+          "text": "Uncertainty — INCERFA"
+        },
+        {
+          "id": "a",
+          "text": "Alert — ALERFA"
+        },
+        {
+          "id": "d",
+          "text": "Distress — DETRESFA"
+        }
+      ],
+      "correct": [
+        "u",
+        "a",
+        "d"
+      ],
+      "explanation": "The severity order is uncertainty → alert → distress. ATS.TR.405 contains independent triggers: for example, known or believed unlawful interference can trigger ALERFA, and evidence of an imminent forced landing can trigger DETRESFA. ATS need not mechanically wait through every earlier phase before acting on stronger evidence.",
+      "pdfPrinted": [
+        288,
+        473
+      ],
+      "pdfFile": [
+        294,
+        479
+      ],
+      "jurisdiction": "EU ATM/ANS Part-ATS",
+      "currentSource": {
+        "title": "Annex IV ATS.TR.405(a)(1)–(3) and (b)(1)",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02017R0373-20261004",
+        "date": "Regulation (EU) 2017/373 consolidated 2026-10-04",
+        "note": "p.288 para14.40; p.473 para23.1 defines severity terms. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "sar",
+        "order"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "Annex IV ATS.TR.405(a)(1)–(3) and (b)(1)",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02017R0373-20261004",
+          "locator": "Annex IV ATS.TR.405(a)(1)–(3) and (b)(1)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "Order keys u/a/d retained. Prevent dangerous inference that phases must always occur in sequence or require waiting for all timers."
+    },
+    {
+      "id": "010-ats-03",
+      "chapterId": "ats",
+      "type": "mcq",
+      "prompt": "How far apart are the common effective dates in the AIRAC system?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 days"
+        },
+        {
+          "id": "b",
+          "text": "14 days"
+        },
+        {
+          "id": "c",
+          "text": "28 days"
+        },
+        {
+          "id": "d",
+          "text": "90 days"
+        }
+      ],
+      "correct": [
+        "c"
+      ],
+      "explanation": "ICAO Annex 15 section 6.2.1 uses common effective dates at 28-day intervals. This is a cycle interval, not the same as a distribution or receipt deadline. EU AIS.OR.505 separately requires information to reach recipients at least 28 days before the effective date. The course’s blanket 42-day distribution statement must not be confused with that separate requirement.",
+      "pdfPrinted": [
+        362
+      ],
+      "pdfFile": [
+        368
+      ],
+      "jurisdiction": "ICAO AIRAC / EU Part-AIS context",
+      "currentSource": {
+        "title": "ICAO Annex 15 6.2.1, quoted on official ICAO AIM page; EU AIS.OR.505",
+        "url": "https://www.icao.int/airnavigation/aeronautical-information-management",
+        "date": "Official ICAO AIM page updated 2021-02-05, opened 2026-11-07; EU 2017/373 consolidation2026-10-04 AIS.OR.505 also read",
+        "note": "p.362 para17.17 supports28-day cycle; its42-day statement not tested as a universal current obligation. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "stable_icao",
+      "tags": [
+        "airac"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r2",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "ICAO official AIM page: quoted AIRAC standard",
+          "url": "https://www.icao.int/airnavigation/aeronautical-information-management",
+          "locator": "Annex15,6.2.1 (quoted28-day interval)",
+          "accessedAt": "2026-11-07"
+        },
+        {
+          "title": "EU Part-AIS",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02017R0373-20261004",
+          "locator": "AIS.OR.505",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "retained",
+      "auditReason": "Correct c retained. Official ICAO page directly quotes 28-day cycle. Remove unqualified current-law 42-day distribution claim; distinguish interval from notice. Page updated2021 is a source-age limit, not an assertion of full2026 Annex audit."
+    },
+    {
+      "id": "010-sec-01",
+      "chapterId": "sec",
+      "type": "mcq",
+      "prompt": "What is the sole objective of a civil aviation safety investigation under Regulation (EU) No 996/2010?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To assign criminal blame"
+        },
+        {
+          "id": "b",
+          "text": "To prevent future accidents and incidents without apportioning blame or liability"
+        },
+        {
+          "id": "c",
+          "text": "To set insurance premiums"
+        },
+        {
+          "id": "d",
+          "text": "To automatically replace the aircraft’s airworthiness certificate"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "Articles 1 and 5(6) make accident and incident prevention the objective, not apportioning blame or liability. Safety investigations remain independent of, separate from and without prejudice to judicial or administrative proceedings. This does not mean those separate proceedings cannot take place.",
+      "pdfPrinted": [
+        499
+      ],
+      "pdfFile": [
+        505
+      ],
+      "jurisdiction": "EU safety investigation law",
+      "currentSource": {
+        "title": "Regulation (EU) No 996/2010 Articles 1 and 5(6)",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02010R0996-20240519",
+        "date": "Regulation (EU) No 996/2010 consolidated2024-05-19, current consolidation identified and read",
+        "note": "p.499 para25.4 states prevention not blame/liability; current EU law provides operative support. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "annex13"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "Regulation (EU) No 996/2010 Articles 1 and 5(6)",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02010R0996-20240519",
+          "locator": "Regulation (EU) No 996/2010 Articles 1 and 5(6)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": false,
+      "auditDecision": "rewritten",
+      "auditReason": "Correct b retained; use directly read EU primary law and do not claim the complete current Annex 13 was read. Explicitly separate safety and judicial aims."
+    },
+    {
+      "id": "010-sec-02",
+      "chapterId": "sec",
+      "type": "mcq",
+      "prompt": "A fatal civil airliner accident occurs in an EU Member State and falls within Regulation (EU) No 996/2010. Which State has the initial territorial responsibility for the safety investigation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IATA’s State of headquarters"
+        },
+        {
+          "id": "b",
+          "text": "The State in which the accident occurred"
+        },
+        {
+          "id": "c",
+          "text": "Only the State of Manufacture"
+        },
+        {
+          "id": "d",
+          "text": "Only the aircraft commander’s home State"
+        }
+      ],
+      "correct": [
+        "b"
+      ],
+      "explanation": "Under Article 5(1), the investigation takes place in the Member State of occurrence; Article 4 requires an independent safety investigation authority. Under Article 6(2), the task may be delegated to another safety investigation authority by mutual agreement. Other States can participate under the applicable rules. This scenario is a fatal airliner accident, so the limited no-fatal/no-serious-injury small-aircraft derogation in Article 5(5) is not relevant.",
+      "pdfPrinted": [
+        499
+      ],
+      "pdfFile": [
+        505
+      ],
+      "jurisdiction": "EU safety investigation law",
+      "currentSource": {
+        "title": "Regulation (EU) No 996/2010 Articles 4, 5(1), 5(5) and 6(2)",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02010R0996-20240519",
+        "date": "Regulation (EU) No 996/2010 consolidated2024-05-19",
+        "note": "p.499 para25.5 gives occurrence-State principle but is not a current comprehensive investigation obligation. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "annex13"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "Regulation (EU) No 996/2010 Articles 4, 5(1), 5(5) and 6(2)",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02010R0996-20240519",
+          "locator": "Regulation (EU) No 996/2010 Articles 4, 5(1), 5(5) and 6(2)",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "Narrow broad ICAO-State assertion to a current primary EU scenario. Include delegation; do not imply the State of Occurrence must conduct every task itself. Key b retained but legal scope/meaning materially changed."
+    },
+    {
+      "id": "010-sec-03",
+      "chapterId": "sec",
+      "type": "mcq",
+      "prompt": "In EASA CS-ADR-DSN Issue 7, F.370(c), what minimum separation is specified for an isolated aircraft parking position from other parking positions, buildings or public areas?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 m"
+        },
+        {
+          "id": "b",
+          "text": "50 m"
+        },
+        {
+          "id": "c",
+          "text": "100 m"
+        },
+        {
+          "id": "d",
+          "text": "1,000 m"
+        }
+      ],
+      "correct": [
+        "c"
+      ],
+      "explanation": "The certification specification says the position should be at the maximum practicable distance and in any case never less than 100 m from other parking positions, buildings or public areas. This is an aerodrome design specification, not a stand-alone universally applicable pilot operating law. GM1 advises avoiding underground utilities. Actual aerodrome arrangements and certification basis must be checked.",
+      "pdfPrinted": [
+        489
+      ],
+      "pdfFile": [
+        495
+      ],
+      "jurisdiction": "EASA aerodrome design certification specification (not EU implementing-rule text)",
+      "currentSource": {
+        "title": "CS ADR-DSN.F.370(c); GM1 ADR-DSN.F.370, Issue 7 p.99",
+        "url": "https://www.easa.europa.eu/en/downloads/141978/en",
+        "date": "CS-ADR-DSN Issue7, ED Decision2025/004/R; issued2025-05-19, corrected file2025-06-16",
+        "note": "p.489 para24.25 gives100m, only other parking positions. Primary CS adds buildings/public areas and design-status caveat. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "security"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r2",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "CS ADR-DSN.F.370(c); GM1 ADR-DSN.F.370, Issue 7 p.99",
+          "url": "https://www.easa.europa.eu/en/downloads/141978/en",
+          "locator": "CS ADR-DSN.F.370(c); GM1 ADR-DSN.F.370, Issue 7 p.99",
+          "accessedAt": "2026-11-07"
+        },
+        {
+          "title": "EASA official CS-ADR-DSN issue register",
+          "url": "https://www.easa.europa.eu/en/document-library/certification-specifications/group/cs-adr-dsn-aerodromes-design",
+          "locator": "Displaying1–7of7; latest listed Issue7,19May2025; corrected16June2025",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "Key c retained. Course omitted buildings/public areas and used shall as though a universal legal minimum. Explicitly test EASA certification specification and its should wording, not global operational law."
+    },
+    {
+      "id": "010-sec-04",
+      "chapterId": "sec",
+      "type": "mcq",
+      "prompt": "Which SSR Mode A code specifically indicates unlawful interference?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7500"
+        },
+        {
+          "id": "b",
+          "text": "7600"
+        },
+        {
+          "id": "c",
+          "text": "7700"
+        },
+        {
+          "id": "d",
+          "text": "0000"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "SERA.13005(a)(3) requires the pilot to attempt to select 7500 to indicate unlawful interference; if circumstances so warrant, 7700 should be used instead. This question asks which code specifically denotes unlawful interference, not which code must be used in every circumstance. Code 7600 denotes radio-communication failure, while 0000 is not the unlawful-interference code.",
+      "pdfPrinted": [
+        256,
+        488
+      ],
+      "pdfFile": [
+        262,
+        494
+      ],
+      "jurisdiction": "EU SERA",
+      "currentSource": {
+        "title": "SERA.13005(a)(2)–(3), official EASA PDF pp.130–131",
+        "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+        "date": "Regulation (EU) No 923/2012; consolidation identified as 2025-05-01; official EASA reproduction August 2025",
+        "note": "p.256 para12.5 table and p.488 security SSR discussion; discontiguous references, not pages256–488. Reviewed 7 November 2026; source scope is limited to the proposition tested."
+      },
+      "status": "verified_current",
+      "tags": [
+        "ssr",
+        "security"
+      ],
+      "moduleId": "010",
+      "difficulty": 1,
+      "contentRevision": "010-en-2026-11-07-r1",
+      "verificationStatus": "verified",
+      "citations": [
+        {
+          "title": "SERA.13005(a)(2)–(3), official EASA PDF pp.130–131",
+          "url": "https://www.easa.europa.eu/en/downloads/68174/en",
+          "locator": "SERA.13005(a)(2)–(3), official EASA PDF pp.130–131",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "reviewResetNeeded": true,
+      "auditDecision": "rewritten",
+      "auditReason": "Key a retained. Add attempt and 7700 alternative; a bare mandatory 7500 claim would omit legal discretion and could create ambiguity because7700 is also a contingency option."
+    }
+  ],
+  "exclusions": [
+    {
+      "topic": "Historical Regulation (EC) No 216/2008 chapter",
+      "pdfPrinted": [
+        547,
+        548,
+        549,
+        550,
+        551,
+        552
+      ],
+      "pdfFile": [
+        553,
+        554,
+        555,
+        556,
+        557,
+        558
+      ],
+      "reason": "Not used: superseded Basic Regulation framework; no independent review of this chapter.",
+      "url": "https://eur-lex.europa.eu/eli/reg/2018/1139/oj/eng"
+    },
+    {
+      "topic": "Claim that international law does not exist",
+      "pdfPrinted": [
+        24
+      ],
+      "pdfFile": [
+        30
+      ],
+      "reason": "Rejected: absence of a world parliament does not negate treaty obligations.",
+      "url": "https://www.icao.int/sites/default/files/2024-12/7300_cons.pdf"
+    },
+    {
+      "topic": "Bilateral agreements and non-scheduled services",
+      "pdfPrinted": [
+        25
+      ],
+      "pdfFile": [
+        31
+      ],
+      "reason": "Not independently verified for this release."
+    },
+    {
+      "topic": "RNP, MNPS and NAT questions",
+      "pdfPrinted": [
+        270
+      ],
+      "pdfFile": [
+        276
+      ],
+      "reason": "Not independently verified for this release."
+    },
+    {
+      "topic": "Historical CAT IIIA/B/C operational subdivisions",
+      "pdfPrinted": [
+        177
+      ],
+      "pdfFile": [
+        183
+      ],
+      "reason": "Not used to teach current EU approach classifications.",
+      "url": "https://www.easa.europa.eu/en/downloads/68174/en"
+    },
+    {
+      "topic": "Unqualified English Level 4 claim",
+      "pdfPrinted": [
+        74
+      ],
+      "pdfFile": [
+        80
+      ],
+      "reason": "Licensing language requirements depend on privileges and operation; not independently reviewed."
+    },
+    {
+      "topic": "Historical VFR FL200 limit",
+      "pdfPrinted": [
+        124
+      ],
+      "pdfFile": [
+        130
+      ],
+      "reason": "Replaced in active question by SERA.5005(d)(2), including its exceptions.",
+      "url": "https://www.easa.europa.eu/en/downloads/68174/en"
+    },
+    {
+      "topic": "ATC service to VFR in C/D only when conflicting with IFR",
+      "pdfPrinted": [
+        268
+      ],
+      "pdfFile": [
+        274
+      ],
+      "reason": "Rejected: all flights in Classes C and D are subject to ATC clearance.",
+      "url": "https://www.easa.europa.eu/en/downloads/68174/en"
+    },
+    {
+      "topic": "010-fcl-04",
+      "pdfPrinted": [],
+      "pdfFile": [],
+      "reason": "Exclude from graded Air Law mastery: a product disclaimer should not inflate subject knowledge statistics. Retain ID for history; move the warning into About/onboarding."
+    },
+    {
+      "topic": "010-ifr-01",
+      "pdfPrinted": [
+        217,
+        218
+      ],
+      "pdfFile": [
+        223,
+        224
+      ],
+      "reason": "Course p.217 figure and p.218 para 9.4 support historical answer a. Current Doc 8168 operative holding provisions not obtained; exclude rather than label stable/current."
+    },
+    {
+      "topic": "010-ifr-02",
+      "pdfPrinted": [
+        217
+      ],
+      "pdfFile": [
+        223
+      ],
+      "reason": "Course p.217 para 9.3 supports right turns. Former p.215 is a chapter contents page, not evidence. Current primary verification incomplete; exclude."
+    },
+    {
+      "topic": "010-ifr-03",
+      "pdfPrinted": [
+        162
+      ],
+      "pdfFile": [
+        168
+      ],
+      "reason": "Historical answer c is supported by p.162 paras 6.6–6.7. Operational applicability cannot be certified from course alone; do not present 3.3% as engine-out certification performance or universal SID gradient."
+    }
+  ],
+  "learningScience": [
+    {
+      "title": "Dunlosky et al. (2013) — Effective learning techniques",
+      "url": "https://doi.org/10.1177/1529100612453266",
+      "finding": "Practice testing and distributed practice were rated highly useful for long-term retention in this review."
+    },
+    {
+      "title": "Carpenter et al. (2022) — Spacing and retrieval practice",
+      "url": "https://www.nature.com/articles/s44159-022-00089-1",
+      "finding": "Spacing and retrieval practice support learning across many contexts; these methods are often underused."
+    },
+    {
+      "title": "Agarwal & Roediger (2018) — Lessons for learning",
+      "url": "https://journals.sagepub.com/doi/10.1177/0031721718815666",
+      "finding": "Retrieval practice, feedback, spacing and interleaving are study strategies, not guarantees of examination success."
+    }
+  ],
+  "schemaVersion": 1,
+  "contentRevision": "010-en-2026-11-07-r2",
+  "language": "en"
+}
